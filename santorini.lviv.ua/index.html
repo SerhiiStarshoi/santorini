@@ -1,0 +1,573 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Туристична Агенція "SANTORINI"</title>
+	
+	<!-- core CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/logo.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body class="homepage">
+
+  <header id="header">
+
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+				
+                    <div class="col-sm-6 col-xs-8">
+					  <div class="social">
+                            <ul class="social-share">
+                                <li><a href="https://www.facebook.com/santorini.lviv"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/santorini.lviv/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="mailto:infosantorinilviv@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="skype:santorini.lviv?userinfo"><i class="fa fa-skype"></i></a></li> 
+                            </ul>
+                           <!--/ <div class="search">
+                                <form role="form">
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                           </div>-->
+                       </div>
+					</div>
+					
+                    <div class="col-sm-offset-2 col-sm-4 col-xs-12 col-md-4">
+                         <div class="top-number">
+							<p> <i class="fa fa-phone"></i> +38 (098) 11-33-7-66</p>
+						</div>
+                    </div>
+					
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">SANTORINI<span>турагенція</span></a><!--<img src="images/santo.png" alt="logo">-->
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">ГОЛОВНА</a></li>
+                        <li><a href="#">ГАРЯЧІ ТУРИ</a></li>
+                        <li><a href="excursus.html">ЕКСКУРСІЙНІ ТУРИ</a></li>
+                        <li><a href="#">ВІДПОЧИНОК НА МОРІ</a></li>
+						<!--/
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">СТРАНЫ <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog-item.html">Blog Single</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="404.html">404</a></li>
+                                <li><a href="shortcodes.html">Shortcodes</a></li>
+                            </ul>
+                        </li>-->
+                       <li><a href="#">ПІДБІР ТУРУ</a></li>
+						<li><a href="about-us.html">ПРО НАС</a></li>                        
+                        <li><a href="contacts.html">КОНТАКТИ</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+		
+		<section id="namore">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="modul wow fadeInDown">
+							<script>
+								var osGeo = ""; /* страна, курорт или отель по умолчанию в форме поиска */
+								var osTarget = ""; /* URL для отправки формы */
+								var osContainer = null; /* Элемент DIV, в котором выводить результаты поиска */
+								var osTourContainer = null; /* Элемент DIV, в котором выводить подробную информацию о туре */
+								var osLang = 'ua'; /* язык интерфейса (ru|ua) */
+							</script>
+							<script src="https://export.otpusk.com/api/session?access_token=29bab-aca4c-f20ab-233a8-5ffe2"></script>
+							<script src="https://export.otpusk.com/js"></script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+    </header><!--/header-->
+	
+
+    <!--<section id="main-slider" class="no-margin">
+	   <div class="container-fluid">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">ГРЕЦИЯ</h1>
+									<span class="animation-city">SANTORINI</span>
+                                    <h2 class="animation animated-item-2 animation-price">
+										<span>Від </span>1000$
+									</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Подробнее</a>
+                                </div>
+                            </div>
+							
+                         
+							
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                             <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">ФРАНЦИЯ</h1>
+									<span class="animation-city">Paris</span>
+                                    <h2 class="animation animated-item-2 animation-price"><span>Від  </span>800$</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <!--/<div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/img2.png" class="img-responsive">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                             <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">ЧЕХИЯ</h1>
+									<span class="animation-city">Prague</span>
+                                    <h2 class="animation animated-item-2 animation-price"><span>Від </span>500$</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <!--/<div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/img3.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+		</div>
+    </section> -->
+
+   
+
+    
+	
+	 <section id="feature" >
+        <div class="container">
+           <div class="center wow fadeInDown">
+                <h2>ЯК МИ ПРАЦЮЄМО</h2>
+				<h3>Виберіть зручний спосіб:</h3>
+                <!--<p class="lead"></p>--->
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap text-center">
+                            <i class="fa fa-home"></i>
+                            <h2>Зустріч в офісі</h2>
+                            <h3>Підбір туру і бронювання безпосередньо в офісі за адресою вул. Гнатюка 18</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap text-center">
+                            <i class="fa fa-laptop"></i>
+                            <h2>Повністю Online</h2>
+                            <h3>Підбір і оформлення туру online, плата на банківські реквізити</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap text-center">
+                           <i class="fa fa-share-square" aria-hidden="true"></i>
+                            <h2>Виберіть місце</h2>
+                            <h3>Призначте місце та час для зустрічі задля бронювання</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+                
+
+                </div><!--/.services-->
+            </div><!--/.row-->    
+        </div><!--/.container-->
+    </section><!--/#feature-->
+	
+	<section id="recent-works">
+        <div class="container">
+            <!--<div class="center wow fadeInDown">--->
+               <h2 class="text-center wow fadeInDown">МАЄТЕ ЗАКОРДОННИЙ ПАСПОРТ? - <br>ТОДІ <span>SANTORINI</span></h2>
+                <!--<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</div>--->
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/1.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">#ХОЧУНАМОРЕ</a> </h3>
+                                <p>Гарячі тури в Туреччину, Єгипет, Грецію, Іспанію, ОАЕ та ін.</p>
+                                <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/2.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">#ХОЧУВЄВРОПУ</a></h3>
+                                <p>Більше 400 комбінацій екскурсійних турів по всій Європі</p>
+                                <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/3.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">ЗАЛИШИТИЗАПИТ</a></h3>
+                                <p>Проживання, авіаквитки, страхування...</p>
+								<p>Ваші ідеї - наші пропозиції</p>
+                                <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/4.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">#ХОЧУВЛОНДОН</a></h3>
+                                <p>Авіа та автобусні тури у Великобританію</p>
+                                <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/5.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">#ГАРЯЧІТУРИ</a></h3>
+                                <p>Увага! Готовність номер один:)</p>
+                                <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/6.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">ПРОSANTORINI </a></h3>
+                                <p>Контакти, адреса, документи</p>
+                                <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#recent-works-->
+	
+    <section id="services" class="service-item fadeInDown">
+	   <div class="container">
+            <div class="text-center wow fadeInDown">
+                <h2>НАШІ ПОСЛУГИ</h2>
+               
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services1.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">авіаквитки</h3>
+                            <p>Бронюйте авіаквитки за низькими цінами</p>
+                        </div>
+                    </div>
+                </div>
+				
+		   
+
+				<div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services6.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">страхування</h3>
+                            <p>Страхування подорожуючих закордон</p>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services4.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Екскурсії по Європі</h3>
+                            <p>Самі цікаві екскурсії разом з нами </p>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services3.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Трансфери </h3>
+                            <p>Трансфери, квитки на рейсові автобусі, залізничні квитки по Європі</p>
+							
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services5.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">гарячі тури</h3>
+                            <p>Найвигідніші пропозиції на найближчі дати</p>
+                        </div>
+                    </div>
+                </div>
+				
+				    <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services2.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">готелі</h3>
+                            <p>Пошук вільних номерів і цін в режимі реального часу</p>
+                        </div>
+                    </div>
+                </div>
+                                                          
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#services-->
+
+   
+
+    
+
+
+    <section id="conatcat-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <!--<div class="pull-left">
+                            <i class="fa fa-phone"></i>
+                        </div>-->
+                        <div class="media-body wow fadeInDown">
+                            <h2>Підпішіться, щоб отримувати НАЙКРАЩІ ПРОПОЗИЦІЇ на пошту!</h2>
+                            
+							<form class="form-subscribe" action="send.php" method="post" action="#/subscribe" novalidate="novalidate">
+								<div class="block-subscribe">
+									<div class="form-group">
+										<input type="text" class="name" id="name" name="name" placeholder="Ім'я" required>
+									</div>	
+									<div class="form-group">
+										<input type="text" class="email" id="email" name="email" placeholder="Email" required>
+									</div>	
+									
+									<input type="submit" value="ПІДПИСАТИСЬ">
+
+								</div>
+							</form>
+							
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.container-->    
+    </section><!--/#conatcat-info-->
+
+    <section id="bottom">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">	
+                <div class="col-md-6 col-sm-12 col-xs-7">
+					<form action="always.php" method="post" class="form-always">
+					
+						<h3>МИ ЗАВЖДИ НА ЗВЯЗКУ!</h3>
+							
+						<input type="text" class="form-control" name="name" size="25" placeholder="І'мя" required>
+							
+						<input type="text" class="form-control" name="email" size="25" placeholder="Email" required>
+							
+						<input type="text" class="form-control" name="mobile" size="25" placeholder="Телефон" required>
+							
+						<input type="text" class="form-control" name="subject" size="25" placeholder="Заголовок" required>
+							
+						<textarea class="form-control" type="textarea" name="message" id="message" placeholder="Текст" maxlength="570" rows="12"></textarea>
+							
+						<span class="help-block"><p id="characterLeft" class="help-block ">Ліміт стиволів</p></span>    
+						
+						<div>	
+							<input type="submit" class="btn-primary text-center" value="ВІДПРАВИТИ" />
+						</div>
+						
+					</form>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>ТУРИ І КВИТКИ</h3>
+                        <ul>
+                            <li><a href="#">Гарячі Тури</a></li>
+                            <li><a href="#">Екскурсійні Тури</a></li>
+                            <li><a href="#">Відпочинок на Морі</a></li>
+                            <li><a href="#">Підбір Туру</a></li>
+
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>КОНТАКТИ:</h3>
+                        <ul>
+                            <li>м. Львів</li>
+                            <li>вул. Гнатюка 18</li>
+                            <li>+38 (098) 037 10 10</li>
+                            <li><span>РОБОЧІ ГОДИНИ:</span></li>
+                            <li>Пон-Суб 10:30-19:30</li>
+							<li>Нед 11:00-15:00</li>
+							<li>santorinitour@lviv.ua</li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+				
+				<div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="widget">
+                        <h4>МИ В СОЦ МЕРЕЖАХ:</h4>
+                    	<div class="widget-socials scaleIn">
+							<a href="https://www.facebook.com/santorini.lviv"><i class="fa fa-facebook"></i></a>
+							<a href="https://www.instagram.com/santorini.lviv/"><i class="fa fa-instagram"></i></a>
+							<a href="mailto:infosantorinilviv@gmail.com"><i class="fa fa-google-plus"></i></a> 
+							<a href="skype:santorini.lviv?userinfo"><i class="fa fa-skype"></i></a>
+							</div>
+                    </div>    
+                </div><!--/.col-md-3-->
+            </div>
+        </div>
+    </section><!--/#bottom-->
+
+	
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 footer-left">
+                    &copy;  2017 Туристична агенція «Santorini».
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">Головна</a></li>
+                        <li><a href="#">Про нас</a></li>
+                        <li><a href="#">Звязатись з нами</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+	
+	
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+
+	
+	<!-- BEGIN JIVOSITE CODE {literal} -->
+	<script type='text/javascript'>
+	(function(){ var widget_id = '8lZcgcu5YL';var d=document;var w=window;function l(){
+	var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+	<!-- {/literal} END JIVOSITE CODE -->
+</body>
+</html>

@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/5326b718.idua.org/webstat"
+AuthUserFile /var/www/bidua98/data/etc/58595057.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
